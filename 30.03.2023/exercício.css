@@ -1,0 +1,11 @@
+table, th, td{
+    border: solid rgba(107, 107, 197, 0.425) 3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+table{
+    width: 500px;
+}
+th{
+    background-color: greenyellow;
+}

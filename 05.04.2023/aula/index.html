@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Identificação</legend>
+    <label for="cNome">Nome</label>
+    <input type="text" id="cNome" required>
+    <br><br>
+    
+    <input type="radio">
+    <label for="">Cidade</label> <br>
+    <input type="radio" name="" id="">
+    <label for="">Interior</label><br>
+</fieldset>
+
+<fieldset>
+    <legend>Transporte</legend>
+    <p> Qual é o meio de transporte que você usa?</p>
+    <input type="checkbox" name="" id="">
+    <label for="">Bicicleta</label><br>
+    <input type="checkbox" name="" id="">
+    <label for="">Carro</label><br>
+    <input type="checkbox" name="" id="">
+    <label for="">Ônibus</label><br>
+    <input type="checkbox" name="" id="">
+    <label for="">Mêtro/trem</label><br>
+</fieldset>
+
+<fieldset>
+    <legend>Time</legend>
+    <p>Selecione o seu time:</p>
+    <select name="" id="">
+        <option value="Palmeiras">Palmeiras</option>
+        <option value="SãoPaulo">São Paulo</option>
+        <option value="Corinthians">Corinthians</option>
+        <option value="Santos">Santos</option>
+        <option value="Vasco">Vasco</option>
+        <option value="Fluminense">Fluminense</option>
+        <option value="Flamengo">Flamengo</option>
+    </select><br>
+</fieldset>
+
+<fieldset>
+    <legend>Cidade</legend>
+    <p>Escolha a sua cidade:</p>
+    <label for="">Cidade</label>
+    <input autocomplete="on" list="Cidade" placeholder="Sua cidade">
+    <datalist id="Cidade">
+    <option value="São Paulo">São Paulo</option>
+    <option value="Minas Gerais">Minas Gerais</option>
+    <option value="Rio de Janeiro">Rio de Janeiro</option>
+    <option value="Espírito Santo">Espírito Santo</option>
+    </datalist>
+    <br><br>
+</fieldset>
+
+    <fieldset>
+        <legend>Avaliação</legend>
+    0 <input type="range" name="" id=""> 5<br>
+</fieldset>
+
+<fieldset>
+    <legend>Feedback</legend>
+    <p>Sugestões, elogios e críticas:</p>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Encaminhar">
+</fieldset>
+
+
+</form>
+    
+</body>
+</html>
